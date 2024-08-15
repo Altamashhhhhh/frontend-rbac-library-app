@@ -1,0 +1,42 @@
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .nav-button {
+    background-color: #0066FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .nav-button:hover {
+    background-color: #005bb5;
+  }
+  
+  .nav-button:active {
+    transform: scale(0.98);
+  }
+  

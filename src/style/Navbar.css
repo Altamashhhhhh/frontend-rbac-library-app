@@ -1,0 +1,46 @@
+/* Navbar container */
+nav {
+    background-color: #f0f0f0; /* Matching the background color */
+    padding: 10px 20px;
+    text-align: center; /* Center the text in the nav */
+}
+
+/* Unordered list in the navbar */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px; /* Spacing between items */
+}
+
+/* Individual list items */
+nav ul li {
+    background-color: #0066FF; /* Same color as buttons */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem; /* Same font size as buttons */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
+}
+
+/* Hover effect */
+nav ul li:hover {
+    background-color: #005bb5; /* Darker blue on hover */
+}
+
+/* Active state effect */
+nav ul li:active {
+    transform: scale(0.98); /* Slightly shrink on click */
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+}

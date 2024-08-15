@@ -1,0 +1,88 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logout-button, .create-button {
+  background-color: #0066FF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.logout-button:hover, .create-button:hover {
+  background-color: #005bb5;
+}
+
+.logout-button:active, .create-button:active {
+  transform: scale(0.98);
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+td button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  background-color: #0066FF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+td button:hover {
+  background-color: #005bb5;
+}
+
+td button:active {
+  transform: scale(0.98);
+}
+
+.sorting-controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.sorting-controls label {
+  font-size: 1rem;
+  color: #333;
+}
+
+.sorting-controls select {
+  padding: 5px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
